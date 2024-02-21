@@ -1,0 +1,115 @@
+/* button {
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    align-content: center;
+    font-style: normal;
+    background-color: white;
+    width: 80px;
+    height: 50px;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+button:hover {
+    background-color: white;
+    width: 100px;
+    height: auto;
+    color: white;
+    transition: all 2s ease-in-out;
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    color: wheat;
+    flex-wrap: wrap;
+    font-size: 20px;
+  transform: translate(50%, 100%);
+  animation-name: ball;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+@keyframes ball {
+    from {background-color: red;}
+    to {background-color: purple;}
+} */
+.nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transform: translate(50% 100%);
+    align-items: center;
+}
+
+ul{
+    padding: 15px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    align-content: center;
+    transition: width 2s, height 2s, translate(50px, 100px);
+}
+.list:hover{
+    background-color: whitesmoke;
+    color: white;
+    border-radius: 100px;
+    transform: linear translate(50px, 100px);
+}
+button{
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    margin-left: 100px;
+    font-size: 10px;
+    margin-top: -1500px;
+    height: 25px;
+    font-style: initial;
+    border-color: rgba(0, 0, 255, 0.473);
+    /* transition: color width; */
+}
+button:hover{
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 0px 200px 0px 100px;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    margin-top: -70px;
+}
+.btn{
+    cursor: pointer;
+    background-color: #1976d2
+}
+.signup{
+    color: white;
+    border-radius: 100px;
+    height: 25px;
+    width: 20px;
+    background-color: #1976d2;
+    transition: all;
+    padding: 5px;
+
+}
+.signup:hover {
+    color:white;
+    background-color:black;
+    border-radius: 10px;
+}
